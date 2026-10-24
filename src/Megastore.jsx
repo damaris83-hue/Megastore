@@ -4,7 +4,7 @@ import {Search,User,Heart,Menu,ShoppingCart}from 'lucide-react';
 
 {/*HEADER */}
 <div className="header">
-  <h2>Megastore</h2>
+  <h2>MegaStore</h2>
     
 
 <div style={{display:'flex', alignItems:'center', gap:'8px', border:'1px solid #ccc', padding:'5px', borderRadius:'5px'}}>
