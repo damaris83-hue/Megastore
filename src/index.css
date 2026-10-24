@@ -1,0 +1,148 @@
+  .one{
+color:pink;
+  }
+  .main1{
+    display:flex;
+    justify-content: space-between;
+  }
+
+.two{
+  
+  width:50;
+  text-align: left;
+  padding-top:15px;
+}
+.two ul li a{
+   text-decoration: none;
+   padding:10px;
+}
+.two ul li {
+   display: inline;
+}
+.container{
+  width:80%;
+  margin:auto;
+}
+.bgcolor{
+  background-color: blue;
+  height:75px;
+}
+c
+
+.two ul li a {
+   text-decoration:none ;
+   padding-left: 20px;
+  
+}
+.clear{
+  content:"";
+  clear:both;
+}
+
+.three {
+      text-align: center;
+}
+.bgimg{
+  background-image: url("church1.jpg");
+  background-position: center;
+  padding: 100px 50px;
+  color:white;
+  margin-top: -5px;
+  border-top: 5px solid orangered;
+}
+
+.four{
+  float:left;
+  width:50%;
+}
+.five{
+  float:left;
+  width:50%;
+  text-align: right;
+  padding-top: 18px;
+}
+.bgcolor{
+  background-color: skyblue;
+  height:75px;
+}
+.five input[type="text"]{
+  padding:5px 5px 5px 5px;
+}
+.five input[type="submit"]{
+  background-color: red;
+  color:white;
+  border:none;
+  padding:5px 8px;
+}
+
+.main{
+  display:grid;
+  grid-template-columns: auto;
+  gap:10px;
+  width:60%;
+}
+.six{
+  text-align: left;
+}
+.seven{
+  background-color:  grey;
+  border-radius:7px;
+  text-align: center;
+}
+.eight{
+  background-color:  grey;
+  border-radius: 7px;
+  text-align: center;
+}
+.seven p{
+  text-align: center;
+} 
+.nine{
+  background-color:  grey;
+  border-radius: 7px;
+  text-align: center;
+}
+.contact{
+  background-color: darkblue;
+  display:grid;
+  grid-template-columns: auto;
+  width:35%;
+  float:right;
+  position:relative;
+  top:50%;
+  transform:translateY();
+  z-index: 1000;
+
+    }
+
+.contact s{
+  padding:8px 4px;
+}
+.contact input[type="send"]{
+     background-color: red;
+     color:white;
+     border:none;
+     padding:5px 5px;
+}
+.eleven{
+  text-align: center;
+  background-color: skyblue;
+  color:white;
+  padding: 5px 0px;
+}
+
+.icon {
+  color:red;
+}
+
+.red{
+  color: red;
+}
+.tulp{
+  color:orange;
+}
+
+
+
+
+
