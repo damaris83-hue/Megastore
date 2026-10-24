@@ -1,6 +1,6 @@
 import { Heart, Star, Home } from 'lucide-react';
 
-function App() {
+function LucideA() {
   return (
     <div>
       <Heart size={24} color="red" />
@@ -9,3 +9,5 @@ function App() {
     </div>
   );
 }
+
+export default LucideA;

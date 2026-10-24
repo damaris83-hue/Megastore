@@ -1,11 +1,12 @@
-import { User, Menu, Search } from 'lucide-react';
+import { Search, Menu } from 'lucide-react';
 
-function App() {
+function LucideB() {
   return (
-    <div style={{ display: 'flex', gap: '10px' }}>
-      <User size={24} />
-      <Menu size={24} />
-      <Search size={24} />
+    <div>
+      
+      <Search classname="icon" />
+     <Menu />
     </div>
   );
 }
+export default LucideB;
