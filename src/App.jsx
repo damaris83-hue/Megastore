@@ -1,7 +1,7 @@
-import Megastore from './Megastore.jsx';
+import Mobile from "./Mobile";
 
 function Main(){
-  return <MegaStore/>
+  return <Mobile/>
   
 }
 export default Main;
