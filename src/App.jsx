@@ -1,7 +1,7 @@
 import MegaStore from './MegaStore.jsx';
 
-function App(){
+function Main(){
   return <MegaStore/>
   
 }
-export default App
+export default Main;
