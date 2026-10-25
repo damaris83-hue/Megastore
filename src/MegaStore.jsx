@@ -1,25 +1,10 @@
 
 import { useState, useEffect } from "react";
-import {Search,User,Heart,Menu,ShoppingCart}from 'lucide-react';
+
 
 {/*HEADER */}
 <div className="header">
   <h2>MegaStore</h2>
-    
-
-<div style={{display:'flex', alignItems:'center', gap:'8px', border:'1px solid #ccc', padding:'5px', borderRadius:'5px'}}>
-  <Search size={18}/>
-  <input type="text" placeholder="Search iPhone, MacBook..." style={{border:'none', outline:'none'}} />
-</div>
-
-<div style={{display:'flex', gap:'15px', alignItems:'center'}}>
-  <User size={24}/>
-  <Heart size={24}/>
-  <Menu size={24}/>
-  <div style={{display:'flex', alignItems:'center', gap:'5px'}}>
-    <ShoppingCart size={24}/> Cart-0 items
-  </div>
-</div>
   
 </div>
 
