@@ -1,13 +1,6 @@
 
 import { useState, useEffect } from "react";
 
-
-{/*HEADER */}
-<div className="header">
-  <h2>MegaStore</h2>
-  
-</div>
-
 const products = [
   { id: 1, name: "iPhone 15 Pro", price: 120000, img: "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=300" },
   { id: 2, name: "MacBook Air M2", price: 95000, img: "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=300" },
