@@ -1,4 +1,4 @@
-import MegaStore from './MegaStore.jsx';
+import Main from './Main.jsx';
 
 function Main(){
   return <MegaStore/>
