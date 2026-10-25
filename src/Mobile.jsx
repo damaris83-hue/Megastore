@@ -1,8 +1,5 @@
 import { useState } from "react";
 
-
- 
-
 export default function Mobile() {
   const [cart, setCart] = useState([]);
   const [showBill, setShowBill] = useState(false);
