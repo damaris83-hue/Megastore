@@ -32,7 +32,7 @@ import Students from "./Students";
 import Employees from "./Employees";
 import UseState from "./UseState";
 import Usestatea from "./Usestatea";
-import NameInput from "./Nameinput";
+
 import Counter from "./Counter";
 import Usestateb from "./Usestateb";
 import UseEffecta from "./UseEffecta";
@@ -58,7 +58,7 @@ import AppF from "./AppF";
 import AppG from "./AppG";
 import Mobile from "./Mobile";
 import Computer from "./Computer";
-import MegaStore from "./Megastore";
+
 import  Search from "./Search";
 import LoginPage from "./LoginPage";
 import Lightmegastore from "./Lightmegastore";
@@ -67,10 +67,7 @@ const router = createBrowserRouter([
     path: "/",
     element: <Layout />,
   },
-  {
-    path:"/mega",
-    element:<MegaStore/>
-  },
+ 
   {
     path:"/light",
     element:<Lightmegastore/>,
@@ -209,10 +206,7 @@ element:<Appz/>,
     path:"usestater",
     element:<Counter/>,
   },
-  {
-    path:"usestatef",
-    element:<NameInput/>
-  },
+ 
   {
     path:"sample",
     element:<Sample title="Sample Component" section="secondary"  section2="teritiory" marketing="digitalmarketing" tally="Tallyprime"
