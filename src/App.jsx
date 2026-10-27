@@ -1,18 +1,18 @@
 
 import React from 'react'
-
 function App() {
   return (
-    <div style={{textAlign: 'center', padding: '50px', fontFamily: 'Arial'}}>
-      <h1>🛍️ MEGASTORE IS LIVE!</h1>
-      <h2>Glory to God! ✝️</h2>
-      <p>Welcome to Sandya's MegaStore</p>
-      <p>Build is SUCCESS - AMEN!</p>
-      <button style={{padding: '10px 20px', background: 'black', color: 'white', marginTop: '20px'}}>
-        Shop Now
-      </button>
+    <div>
+      <h1 style={{textAlign:'center'}}>DEEPA WEBSITE - MEGA STORE 🛍️</h1>
+      <div style={{display:'flex', gap:'20px', justifyContent:'center', padding:'20px'}}>
+        <div style={{border:'1px solid #ccc', padding:'10px'}}>📱 Mobile - ₹15000</div>
+        <div style={{border:'1px solid #ccc', padding:'10px'}}>👗 Dress - ₹2000</div>
+        <div style={{border:'1px solid #ccc', padding:'10px'}}>👟 Shoes - ₹3000</div>
+      </div>
     </div>
   )
 }
-
 export default App
+
+
+
